@@ -49,7 +49,10 @@ li {
     font-family: "Glegoo", "Times New Roman", serif;
     font-weight: normal;
     font-style: normal; }
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-weight: inherit;
+    font-color: inherit;
+  }
   h1 { font-size: 2em; }
   h2 { font-size: 1.5em; }
   h3 { font-size: 1.3em; }
@@ -88,6 +91,11 @@ header div {
   height:100%;
 }
 
+.title a {
+  color: black;
+}
+
+
 
 /*================================================*/
 /* Development Helpers                            */
@@ -95,6 +103,10 @@ header div {
 
 div {
   border: 1px double black;
+}
+
+.background {
+  background-color: red;
 }
 
 /*================================================*/
